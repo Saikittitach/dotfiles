@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/kittitach'
+let g:netrw_dirhist_3='/home/kittitach/.vim'
+let g:netrw_dirhist_2='/home/kittitach/.vim/bundle'
+let g:netrw_dirhist_1='/home/kittitach/.vim/bundle/nerdtree'
+let g:netrw_dirhist_0='/home/kittitach/.vim/bundle'
+let g:netrw_dirhist_9='/home/kittitach/.vim'
+let g:netrw_dirhist_8='/home/kittitach'
+let g:netrw_dirhist_7='/home/kittitach/.oh-my-zsh'
+let g:netrw_dirhist_6='/home/kittitach/.oh-my-zsh/.github'
+let g:netrw_dirhist_5='/home/kittitach/.oh-my-zsh'
