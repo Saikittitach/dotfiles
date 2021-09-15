@@ -45,9 +45,22 @@ set nowrap
 set noswapfile
 
 " interface
+"set so=8
+"set relativenumber
+"set signcolumn=yes
+
+" interface 
 set so=8
-set relativenumber
+set number
+set numberwidth=8
 set signcolumn=yes
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set textwidth=161
+set cursorline
+hi CursorLine ctermbg=235
+"set colorcolumn=161
 
 " folding
 set foldmethod=indent
@@ -92,13 +105,14 @@ let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
 "call github_colors#togglebg_map('<f5>')
 
  "important:
-"set termguicolors
+set termguicolors
 set background=dark
 syntax on
-colorscheme plastic
+"colorscheme plastic
+colorscheme github
 
 " Lightline
-let g:lightline = { 'colorscheme': 'plastic' }
+"let g:lightline = { 'colorscheme': 'plastic' }
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
