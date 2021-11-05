@@ -24,6 +24,7 @@ Plug 'yuqio/vim-darkspace'
 Plug 'doums/darcula'
 Plug 'gmoe/vim-eslint-syntax'
 Plug 'flrnprz/plastic.vim'
+Plug 'joshdick/onedark.vim'
 "Plug 'alvan/vim-closetag'
 "Plug 'townk/vim-autoclose'
 call plug#end()
@@ -109,7 +110,7 @@ set termguicolors
 set background=dark
 syntax on
 "colorscheme plastic
-colorscheme github
+colorscheme onedark
 
 " Lightline
 "let g:lightline = { 'colorscheme': 'plastic' }
