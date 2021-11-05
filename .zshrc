@@ -1,15 +1,15 @@
 ##############################################################
 # => ZSH Startup with Tmux
 ##############################################################
-#if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    #tmux || tmux new
-#fi
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    tmux || tmux new
+fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/sai/.oh-my-zsh"
+export ZSH="/home/kittitach/.oh-my-zsh"
 export KITTY_CONFIG_DIRECTORY="/Users/{$USER}/.dotfiles/kitty"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -83,7 +83,7 @@ plugins=(
   git
   bundler
   osx
-  zsh-syntax-highlighting
+  #zsh-syntax-highlighting
   zsh-autosuggestions
 )
 source $ZSH/oh-my-zsh.sh
@@ -121,10 +121,10 @@ alias vim="nvim"
 alias c="clear"
 alias tmux='tmux -2'
 alias gs='git status'
-alias gac='git add . && git commit-am'
+alias gac='git add . && git commit -am'
 alias gl='git log'
 alias bn="cd Desktop/bn/bn-sme-platform-ui-v2"
-alias ecom='cd Desktop/bn/tpi-ecommerce'
+alias ecom='cd Desktop/tpi/tpi-ecommerce'
 
 # FZF config
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -137,3 +137,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
  
+source /home/kittitach/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

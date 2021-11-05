@@ -2,10 +2,10 @@ export OSTYPE = $(shell uname)
 
 config: ## install configuration
 	echo "symlink dotfile config \n"
-	ln -s ${PWD}/.config/kitty ${HOME}/.config/kitty
+	ln -s ${PWD}/.config/kitty/kitty.conf ${HOME}/.config/kitty
 	ln -s ${PWD}/.config/nvim/ ${HOME}/.config/nvim
-	ln -s ${PWD}/.config/gxkb/ ${HOME}/.config/gxkb
-	ln -s ${PWD}/.config/i3/ ${HOME}/.config/i3
+	ln -s ${PWD}/.config/gxkb/gxkb.cfg ${HOME}/.config/gxkb
+	ln -s ${PWD}/.config/i3/config ${HOME}/.config/i3
 	ln -s ${PWD}/.vimrc ${HOME}/.vimrc
 	ln -s ${PWD}/.gitconfig ${HOME}/.gitconfig
 	ln -s ${PWD}/.zshrc ${HOME}/.zshrc
