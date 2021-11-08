@@ -11,6 +11,7 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="/home/kittitach/.oh-my-zsh"
 export KITTY_CONFIG_DIRECTORY="/Users/{$USER}/.dotfiles/kitty"
+#export KITTY_CONFIG_DIRECTORY="/Users/{$USER}/.config/kitty"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -125,6 +126,7 @@ alias gac='git add . && git commit -am'
 alias gl='git log'
 alias bn="cd Desktop/bn/bn-sme-platform-ui-v2"
 alias ecom='cd Desktop/tpi/tpi-ecommerce'
+alias tpi='cd Desktop/tpi/tpi-survey'
 
 # FZF config
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
