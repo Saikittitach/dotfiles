@@ -10,8 +10,8 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/kittitach/.oh-my-zsh"
-export KITTY_CONFIG_DIRECTORY="/Users/{$USER}/.dotfiles/kitty"
-#export KITTY_CONFIG_DIRECTORY="/Users/{$USER}/.config/kitty"
+#export KITTY_CONFIG_DIRECTORY="/Users/{$USER}/.dotfiles/kitty"
+export KITTY_CONFIG_DIRECTORY="/home/kittitach/.config/kitty/kitty.conf"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -121,6 +121,7 @@ alias vi="nvim"
 alias vim="nvim"
 alias c="clear"
 alias tmux='tmux -2'
+alias go='git checkout'
 alias gs='git status'
 alias gac='git add . && git commit -am'
 alias gl='git log'

@@ -171,5 +171,7 @@ exec albert
 #set background
 exec feh --bg-center /home/kittitach/Downloads/rose.png
 
+#set refresh rate
+exec xrandr --output DP-2 --mode 1920x1080 --rate 144
 
 
